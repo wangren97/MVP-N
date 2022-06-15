@@ -10,6 +10,7 @@ Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
 Step 1: Get repository  
 ```
 git clone https://github.com/SMNUResearch/MVP-N.git
+cd MVP-N  
 ```
 Step 2: Install dependencies  
 ```
