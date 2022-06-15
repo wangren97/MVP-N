@@ -7,8 +7,13 @@ cuDNN 8
 NVIDIA GeForce RTX 3090 GPU  
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz  
 ## Setup
+Step 1: Get repository  
 ```
 git clone https://github.com/SMNUResearch/MVP-N.git
+```
+Step 2: Install dependencies  
+```
+sh install.sh
 ```
 ## Dataset Preparation
 Step 1: Download data.zip from [[Google Drive]](https://drive.google.com/uc?export=download&id=1rbjFXLtXGYSsgFN2r9AZtWxOVHGF5jAS)  
