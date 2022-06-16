@@ -40,6 +40,9 @@ python3 main_multi_view.py -MV_FLAG=CM -MV_TYPE=DAN -MV_TEST_WEIGHT=./weights/DA
 
 # computational efficiency
 python3 main_multi_view.py -MV_FLAG=COMPUTATION -MV_TYPE=DAN
+
+# soft label performance
+python3 main_single_view.py -SV_FLAG=TEST -SV_TYPE=SAT -SV_TEST_WEIGHT=./weights/SAT.pt
 ```
 
 
