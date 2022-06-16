@@ -34,8 +34,10 @@ Step 4: Evaluation
 ```
 # feature aggregation performance
 python3 main_multi_view.py -MV_FLAG=TEST -MV_TYPE=DAN -MV_TEST_WEIGHT=./weights/DAN.pt
+
 # confusion matrix
 python3 main_multi_view.py -MV_FLAG=CM -MV_TYPE=DAN -MV_TEST_WEIGHT=./weights/DAN.pt
+
 # computational efficiency
 python3 main_multi_view.py -MV_FLAG=COMPUTATION -MV_TYPE=DAN
 ```
