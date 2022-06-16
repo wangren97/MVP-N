@@ -45,6 +45,11 @@ python3 main_multi_view.py -MV_FLAG=COMPUTATION -MV_TYPE=DAN
 python3 main_single_view.py -SV_FLAG=TEST -SV_TYPE=SAT -SV_TEST_WEIGHT=./weights/SAT.pt
 ```
 ## Training
-
+Training with default configurations
+```
+# feature aggregation
+python3 main_multi_view.py -MV_FLAG=TRAIN -MV_TYPE=DAN
+python3 main_multi_view.py -MV_FLAG=TRAIN -MV_TYPE=CVR
+```
 
 
