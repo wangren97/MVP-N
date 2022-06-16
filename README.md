@@ -21,14 +21,14 @@ Step 1: Download data.zip from [[Google Drive]](https://drive.google.com/uc?expo
 Step 2: Place data.zip in this repository  
 Step 3: Unzip data.zip  
 ```
-unzip data.zip
+unzip data.zip -d data
 ```
 ## Quick Test
 Step 1: Download pretrained weights from [[Google Drive]](https://drive.google.com/uc?export=download&id=1_SroOiy6Y-7OND93WLoa25q6GWjSSsTP)  
 Step 2: Place weights.zip in this repository  
 Step 3: Unzip weights.zip  
 ```
-unzip weights.zip
+unzip weights.zip -d weights
 ```
 
 
