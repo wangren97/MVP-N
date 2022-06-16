@@ -32,7 +32,7 @@ unzip weights.zip -d weights
 ```
 Step 4: Evaluation
 ```
-python3 main_multi_view.py -MV_FLAG=TEST -MV_TYPE=DAN -DAN_H=2 -MV_TEST_WEIGHT=./weights/DAN.pt
+python3 main_multi_view.py -MV_FLAG=TEST -MV_TYPE=DAN -MV_TEST_WEIGHT=./weights/DAN.pt
 ```
 
 
